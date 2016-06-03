@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="newtype_context" deleted="false" description="Newly created files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.newtype" name="newtype">/**
+ * (c) Copyright Scott M. Russell 2016
+ */
+${package_declaration}
+/*
+ * Created by: ${user} on ${date} ${time} for ${project_name}::${package_name}
+ */
+
+${typecomment}	
+${type_declaration}
+</template><template autoinsert="true" context="constructorcomment_context" deleted="false" description="Comment for created constructors" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment">/**
+ * ${todo} CODE REVIEW FAILURE! -- must add description here
+ * 
+ * ${tags}
+ */</template><template autoinsert="true" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * ${todo} CODE REVIEW FAILURE! -- must add description here.
+ * 
+ * ${tags}
+ */</template><template autoinsert="true" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**
+ * ${todo} add comment for &lt;code&gt;${field}&lt;/code&gt; here.
+ */</template><template autoinsert="true" context="typecomment_context" deleted="false" description="Comment for created types" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+ * ${todo} CODE REVIEW FAILURE! -- must add description here
+ *
+ *    @author ${user}
+ */</template></templates>
