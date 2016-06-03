@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="AngularJS controller" enabled="true" name="ngc">app.controller("${controllerName}", function($$scope) {
+	${cursor}
+});</template><template autoinsert="true" context="javaScript" deleted="false" description="AngularJS directive w/ element update" enabled="true" name="ngd">app.directive('${directiveName}', function() {
+	return function(scope, element, attrs) {
+		element.text(${cursor});		
+	}
+});</template><template autoinsert="true" context="javaScript" deleted="false" description="AngularJS directive w/ target URL reference" enabled="true" name="ngdu">.directive('${directoryName}', function() {
+  return {
+    restrict: 'ACE',
+    templateUrl: '${htmlFragment}.html'
+  };
+});</template><template autoinsert="true" context="javaScript" deleted="false" description="AngularJS module" enabled="true" name="ngm">var app = angular.module('${moduleName}',[${moduleDependencies}]);
+		${cursor}</template></templates>
